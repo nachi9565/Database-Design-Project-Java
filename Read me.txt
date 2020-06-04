@@ -1,0 +1,12 @@
+1.Open command promt on the folder containing the 'projectdb' jar file.
+Run the command:
+java -jar projectdb.jar
+2. It opens the database console inside the command prompt.
+3. Click 'HELP;' to get the supproted commands available,
+        1. For showing all tables available in the database: SHOW TABLES;
+        2. For create a new table with columns and values: CREATE TABLE <table_name> (<column_name> <data_type> <not_null> <unique> <primary key>);
+        3. For deleting a table: DROP TABLE <table_name>;
+        4. For inserting a new record into desired table: INSERT INTO <table_name> (<column_list>) VALUES (<values_list>);
+        5. For selecting records(with or without conditions): SELECT <column_list> FROM <table_name> [WHERE <condition>];
+        6. For help: HELP;
+        7. To exit: EXIT;
